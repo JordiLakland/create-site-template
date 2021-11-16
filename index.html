@@ -1,71 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Travel Template</title>
-  </head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="style.css">
 
-  <body>
-    <!-- HEADER -->
-    <div class="hero-area">
-      <div class="container">
-        <header>
-          <h1 class="logo">
-            Travel Template
-          </h1>
-          <button class ="reservations">
-            <i class="material-icons">bookmark_border</i>
-            reservations
-          </button>
-        </header>
-  
-        <section>
-          <h1 class="main-heading">
-            Travel is the only thing you buy that makes you richer
-          </h1>
-  
-          <button class="adventure">
-            adventure
-            <i class="material-icons">play_circle_filled</i>
-          </button>
-  
-          <form class="booking">
-            <div class="booking__inputs">
-  
-              <div class="booking__input">
-                <label for="check-in">Check in</label>
-                <input type="date" id="check-in" />
-              </div>
-  
-              <div class="booking__input">
-                <label for="check-out">Check out</label>
-                <input type="date" id="check-out" />
-              </div>
-  
-              <div class="booking__input">
-                <label for="persons">Persons</label>
+  <title>Travel Template</title>
+</head>
 
-                <select name="personNumber" id="persons">
-                  <option value="1">1 adult</option>
-                  <option value="2">2 adults</option>
-                  <option value="3">3 adults</option>
-                  <option value="4">4 adults</option>
-                </select>
-  
-              </div>
+<body>
+  <!-- HEADER -->
+  <div class="hero-area">
+    <div class="container">
+      <header>
+        <h1 class="logo">
+          Travel Template
+        </h1>
+        <button class="reservations">
+          <i class="material-icons">bookmark_border</i>
+          reservations
+        </button>
+      </header>
+
+      <section>
+        <h1 class="main-heading">
+          Travel is the only thing you buy that makes you richer
+        </h1>
+
+        <button class="adventure">
+          adventure
+          <i class="material-icons">play_circle_filled</i>
+        </button>
+
+        <form class="booking">
+          <div class="booking__inputs">
+
+            <div class="booking__input">
+              <label for="check-in">Check in</label>
+              <input type="date" id="check-in" />
             </div>
-            <button class="booking__button">book now</button>
-          </form>
-        </section>
+
+            <div class="booking__input">
+              <label for="check-out">Check out</label>
+              <input type="date" id="check-out" />
+            </div>
+
+            <div class="booking__input">
+              <label for="persons">Persons</label>
+
+              <select name="personNumber" id="persons">
+                <option value="1">1 adult</option>
+                <option value="2">2 adults</option>
+                <option value="3">3 adults</option>
+                <option value="4">4 adults</option>
+              </select>
+
+            </div>
+          </div>
+          <button class="booking__button">book now</button>
+        </form>
+      </section>
+    </div>
+  </div>
+
+  <!-- ABOUT US -->
+  <section class="about-us">
+    <div class="container">
+      <div class="section-name">
+        about us
+      </div>
+
+      <div class="about-us__content">
+        <div class="about-us__content--left">
+          <h2>
+            People don’t take trips, trips take people
+          </h2>
+
+          <p>
+            If you think your country does everything the right way and is revered by other nations, you’ll definitely
+            have
+            those notions put to the test when you enter another country.
+          </p>
+
+          <img src="./images/image-2.png" alt="About us 1">
+        </div>
+        <div class="about-us__content--right">
+          <p>
+            Have you ever felt the rain on your skin in multiple countries? I have, and I’m here to tell you that it’s
+            always a thrilling sensation each time it happens somewhere new. By traveling, I’ve learned to appreciate
+            things that I would normally ignore.
+          </p>
+
+          <p>
+            Just like everyone else, I spend some of my days sitting on a couch watching television. Of course, these
+            aren’t the moments that define me, nor are they what I think of when wandering through my favorite memories.
+          </p>
+
+          <img src="./images/image-3.png" alt="About us 2">
+        </div>
+
       </div>
     </div>
+  </section>
+</body>
 
-    
-  </body>
 </html>
