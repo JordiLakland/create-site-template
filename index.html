@@ -5,10 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
 
-    <title>Highmos</title>
+    <title>Travel Template</title>
   </head>
+
   <body>
-    Highmos Starter
+    <!-- HEADER -->
+    <div class="hero-area">
+      <div class="container">
+        <header>
+          <h1 class="logo">
+            Travel Template
+          </h1>
+          <button class ="reservations">
+            <i class="material-icons">bookmark_border</i>
+            reservations
+          </button>
+        </header>
+  
+        <section>
+          <h1 class="main-heading">
+            Travel is the only thing you buy that makes you richer
+          </h1>
+  
+          <button class="adventure">
+            adventure
+            <i class="material-icons">play_circle_filled</i>
+          </button>
+  
+          <form class="booking">
+            <div class="booking__inputs">
+  
+              <div class="booking__input">
+                <label for="check-in">Check in</label>
+                <input type="date" id="check-in" />
+              </div>
+  
+              <div class="booking__input">
+                <label for="check-out">Check out</label>
+                <input type="date" id="check-out" />
+              </div>
+  
+              <div class="booking__input">
+                <label for="persons">Persons</label>
+
+                <select name="personNumber" id="persons">
+                  <option value="1">1 adult</option>
+                  <option value="2">2 adults</option>
+                  <option value="3">3 adults</option>
+                  <option value="4">4 adults</option>
+                </select>
+  
+              </div>
+            </div>
+            <button class="booking__button">book now</button>
+          </form>
+        </section>
+      </div>
+    </div>
+
+    
   </body>
 </html>
