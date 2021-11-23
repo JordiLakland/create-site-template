@@ -401,6 +401,12 @@ button {
     font-size: 0.75rem;
 }
 
+.feedback-card__user__details {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
 @media (min-width: 760px) {
     .feedback {
         grid-template-columns: repeat(3, 1fr);
