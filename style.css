@@ -256,7 +256,7 @@ button {
     margin-top: var(--space-lg);
     
     display: grid;
-    gap: var(--space-xl);
+    gap: var(--space-lg);
 }
 
 .stay-card {
@@ -326,7 +326,7 @@ button {
 
 @media (min-width: 760px) {
     .stays {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .stay-card--col-2 {
@@ -336,7 +336,7 @@ button {
 
 @media (min-width: 1020px) {
     .stays {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .stay-card--col-2 {
